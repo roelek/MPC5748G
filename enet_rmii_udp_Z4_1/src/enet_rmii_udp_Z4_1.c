@@ -56,7 +56,7 @@ int main(void)
 	//Enable the Receiver Interrupt
 	ENET_Driver_Rx_Init();
 	int i,j;
-	uint8_t testData[2] = "HI";/* Declare and Initialize the data buffer with some data */
+	uint8_t testData[24] = "Hallo Jorge, Ivan, Ruben";/* Declare and Initialize the data buffer with some data */
 	while(1)
 	{
 			ENET_UDP_Tx(testData, 2);   /* Send frames with different payload sizes */
