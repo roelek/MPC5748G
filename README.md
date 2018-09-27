@@ -1,2 +1,1 @@
-# MPC5748G
-ECU_Test
+# MPC5748G Enet Test
