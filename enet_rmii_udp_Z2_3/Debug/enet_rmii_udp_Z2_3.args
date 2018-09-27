@@ -1,0 +1,18 @@
+"./src/intc_sw_handlers.o"
+"./src/intc_SW_mode_isr_vectors_MPC5748G.o"
+"./src/enet_rmii_udp_Z2_3.o"
+"./src/Vector.o"
+"./src/MPC57xx__Interrupt_Init.o"
+"./Project_Settings/Startup_Code/startup.o"
+-T
+"D:/Workspace/Projekte/RO - Elektronik GmbH/SW/Neuer Ordner/DEVKIT-MPC5748G_Rev-B_Code_Examples/enet_rmii_udp/enet_rmii_udp_Z2_3/Project_Settings/Linker_Files/mem.ld"
+-T
+"D:/Workspace/Projekte/RO - Elektronik GmbH/SW/Neuer Ordner/DEVKIT-MPC5748G_Rev-B_Code_Examples/enet_rmii_udp/enet_rmii_udp_Z2_3/Project_Settings/Linker_Files/sections.ld"
+-T
+"D:/Workspace/Projekte/RO - Elektronik GmbH/SW/Neuer Ordner/DEVKIT-MPC5748G_Rev-B_Code_Examples/enet_rmii_udp/enet_rmii_udp_Z2_3/Project_Settings/Linker_Files/libs.ld"
+-Wl,-Map,"enet_rmii_udp_Z2_3.map"
+-Xlinker
+--gc-sections
+-mcpu=e200z2
+-specs=ewl_c.specs
+--sysroot="C:/NXP/S32DS_Power_v2017.R1/S32DS/e200_ewl2"
